@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.talkingbyte" name="talkingbyte Kodi Repo" version="0.0.5" provider-name="[B]talkingbyte[/B]">
+	<extension point="xbmc.addon.repository" name="talkingbyte Kodi Repo">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/talkingbyte/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/talkingbyte/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/talkingbyte/zips/master/aio</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR yellow]Unofficial Kodi Addon Repository[/COLOR]</summary>
+		<description lang="en">[COLOR red]This is a educational add-on. We do not host any of the contents streamed.[/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon>

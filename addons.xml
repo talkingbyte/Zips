@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.ht" name="HOME THEATER" provider-name="talkingbyte" version="0.0.6">
+<requires>
+<import addon="xbmc.python" version="2.7.0" />
+<import addon="script.module.requests" />
+<import addon="script.module.futures" />
+<import addon="script.module.beautifulsoup4" version="4.6.2" />
+</requires>
+<extension library="addon.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension library="lib" point="xbmc.python.module" />
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="en">Kodi video addon for testing purpose</summary>
+<description lang="en">Use this addon for stream video from different links</description>
+<license>GNU General Public License, v2</license>
+<language>en</language>
+<forum />
+<source />
+<website />
+<email />
+<assets>
+<icon>resources/icon.png</icon>
+<fanart>resources/fanart.jpg</fanart>
+<screenshot />
+<screenshot />
+<screenshot />
+</assets>
+<news>
+</news>
+</extension>
+</addon><addon id="plugin.video.multiplex" name="Home Theater" provider-name="talkingbyte" version="0.0.10">
+<requires>
+<import addon="xbmc.python" version="2.7.0" />
+<import addon="script.module.requests" />
+<import addon="script.module.m3u8" />
+<import addon="script.module.futures" />
+<import addon="script.module.beautifulsoup4" version="4.6.2" />
+</requires>
+<extension library="addon.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension library="lib" point="xbmc.python.module" />
+<extension point="xbmc.addon.metadata">
+<platform>all</platform>
+<summary lang="en">Kodi video addon for testing purpose</summary>
+<description lang="en">Use this addon for stream video from different links</description>
+<license>GNU General Public License, v2</license>
+<language>en</language>
+<forum />
+<source />
+<website />
+<email />
+<assets>
+<icon>resources/icon.png</icon>
+<fanart>resources/fanart.jpg</fanart>
+<screenshot />
+<screenshot />
+<screenshot />
+</assets>
+<news>
+Initial release of this addon - 27/12/2017 
+Bug free release of this addon - 06/04/2020 
+Performance optimized - 07/04/2020
+</news>
+</extension>
+</addon><addon id="repository.talkingbyte" name="talkingbyte Kodi Repo" provider-name="[B]talkingbyte[/B]" version="0.0.5">
+	<extension name="talkingbyte Kodi Repo" point="xbmc.addon.repository">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/talkingbyte/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/talkingbyte/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/talkingbyte/zips/master/aio</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">[COLOR yellow]Unofficial Kodi Addon Repository[/COLOR]</summary>
+		<description lang="en">[COLOR red]This is a educational add-on. We do not host any of the contents streamed.[/COLOR]</description>
+		<platform>all</platform>
+	</extension>
+</addon></addons>
